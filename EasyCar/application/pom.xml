@@ -10,10 +10,9 @@
 	</parent>
 	<groupId>es.rtSoftware.EasyCar</groupId>
 	<artifactId>core</artifactId>
-	<version>0.1.0</version>
+	<version>0.2.0</version>
 	<name>Easy Car Application</name>
-	<description>Easy Car Iteration02</description>
-
+	
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
