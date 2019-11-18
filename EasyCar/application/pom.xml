@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>es.rtSoftware.EasyCar</groupId>
 	<artifactId>core</artifactId>
-	<version>0.4.0</version>
+	<version>1.0.0</version>
 	<name>Easy Car Application</name>
 	
 	<properties>
