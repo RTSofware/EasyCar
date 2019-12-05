@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<artifactId>EasyCar</artifactId>
+		<groupId>es.rtSoftware.EasyCar</groupId>
+		<version>[0.1.0,)</version>
+	</parent>
+	
+	<groupId>es.rtSoftware.EasyCar</groupId>
+	<artifactId>statistics</artifactId>
+	<packaging>jar</packaging>
+	<version>0.1.0</version>
+	<name>Easy Car Statistics Management</name>
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>es.rtSoftware.EasyCar</groupId>
+			<artifactId>core</artifactId>
+			<version>[0.1.0,)</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>es.rtSoftware.EasyCar</groupId>
+			<artifactId>pit</artifactId>
+			<version>[0.1.0,)</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>es.rtSoftware.EasyCar</groupId>
+			<artifactId>booking</artifactId>
+			<version>[0.1.0,)</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>es.rtSoftware.EasyCar</groupId>
+			<artifactId>invoice</artifactId>
+			<version>[0.1.0,)</version>
+		</dependency>					
+
+	</dependencies>	
+
+	<build>
+		<plugins>
+		</plugins>
+	</build>
+</project>
